@@ -1,0 +1,33 @@
+package model;
+
+public class Batch {
+
+	public int bId;
+	public String bName;
+	public Faculty faculty;
+	public int getbId() {
+		return bId;
+	}
+	public void setbId(int bId) {
+		this.bId = bId;
+	}
+	public String getbName() {
+		return bName;
+	}
+	public void setbName(String bName) {
+		this.bName = bName;
+	}
+	public Faculty getFaculty() {
+		return faculty;
+	}
+	public void setFaculty(Faculty faculty) {
+		this.faculty = faculty;
+	}
+	@Override
+	public String toString() {
+		return "Batch [bId=" + bId + ", bName=" + bName + ", faculty=" + faculty + "]";
+	}
+	
+	
+	
+}
